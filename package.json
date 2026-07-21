@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "dev": "nodemon app.js",
+    "dev": "npx nodemon app.js",
     "test": "node --test test/**/*.test.js"
   },
   "keywords": [
@@ -15,9 +15,9 @@
   "author": "William Mantly",
   "license": "MIT",
   "dependencies": {
-    "@simpleworkjs/backend": "file:../backend",
-    "@simpleworkjs/conf": "file:../conf",
-    "@simpleworkjs/orm-identity": "file:../orm-identity"
+    "@simpleworkjs/backend": "^0.1.1",
+    "@simpleworkjs/conf": "^1.2.0",
+    "@simpleworkjs/orm-identity": "^0.1.1"
   },
   "devDependencies": {
     "nodemon": "^3.0.2"

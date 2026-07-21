@@ -1,0 +1,28 @@
+{
+  "name": "simpleworkjs-beta-app",
+  "version": "0.1.0",
+  "description": "Demo application built with @simpleworkjs/backend and @simpleworkjs/orm-identity.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "node --test test/**/*.test.js"
+  },
+  "keywords": [
+    "simpleworkjs",
+    "demo"
+  ],
+  "author": "William Mantly",
+  "license": "MIT",
+  "dependencies": {
+    "@simpleworkjs/backend": "file:../backend",
+    "@simpleworkjs/conf": "file:../conf",
+    "@simpleworkjs/orm-identity": "file:../orm-identity"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

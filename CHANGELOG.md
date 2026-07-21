@@ -1,5 +1,14 @@
 # Changelog
 
+## Unreleased
+
+### Changed
+
+- Bumped `@simpleworkjs/backend` and `@simpleworkjs/orm-identity` to `^0.2.0`
+  (dependency security updates: `bcrypt` 6, `sqlite3` 6, `uuid` 11) and added an
+  `overrides` entry pinning `uuid` to `^11.1.1`. Clears the `npm install` audit
+  warnings.
+
 ## 0.1.0
 
 ### Fixed

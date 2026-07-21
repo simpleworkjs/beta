@@ -15,14 +15,17 @@
   "author": "William Mantly",
   "license": "MIT",
   "dependencies": {
-    "@simpleworkjs/backend": "^0.1.6",
+    "@simpleworkjs/backend": "^0.2.0",
     "@simpleworkjs/conf": "^1.2.0",
-    "@simpleworkjs/orm-identity": "^0.1.2"
+    "@simpleworkjs/orm-identity": "^0.2.0"
   },
   "devDependencies": {
     "nodemon": "^3.0.2"
   },
   "engines": {
     "node": ">=18.0.0"
+  },
+  "overrides": {
+    "uuid": "^11.1.1"
   }
 }

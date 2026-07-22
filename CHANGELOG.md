@@ -4,6 +4,8 @@
 
 ### Changed
 
+- Bumped `@simpleworkjs/backend` to `^0.2.5` and `@simpleworkjs/orm-identity` to
+  `^0.2.2` so a fresh install pulls the DB-backed permission stack.
 - Bumped `@simpleworkjs/backend` and `@simpleworkjs/orm-identity` to `^0.2.0`
   (dependency security updates: `bcrypt` 6, `sqlite3` 6, `uuid` 11) and added an
   `overrides` entry pinning `uuid` to `^11.1.1`. Clears the `npm install` audit
